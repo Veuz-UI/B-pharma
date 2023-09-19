@@ -1,0 +1,311 @@
+@media only screen and (min-width:100px) and (max-width:1024px) {
+    .social-section {
+        display: none;
+    }
+    .numbers-section {
+        font-size: 13px;
+        margin-top: 9px;
+        padding: 0px;
+        margin: 10px auto;
+    }
+    .navbar-brand img {
+        width: 198px;
+    }
+    .banner-info {
+        width: 100%;
+        height: auto;
+        transform: none;
+        top: 48%;
+        left: 0%;
+        position: absolute;
+    }
+    .banner-info h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        display: none !important;
+    }
+    .img-banner-width img {
+        width: 100%;
+        height: calc(51vh - 55px);
+        object-fit: cover;
+    }
+    .section-pad {
+        margin-top: 50px;
+    }
+    .main-text-style {
+        font-size: 25px;
+    }
+    .focus-box {
+        margin-top: 20px;
+    }
+    .focus-texts h2 {
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .common-dec {
+        padding-top: 8px;
+    }
+    .img-responsive img {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .box-why-choose {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    .box-margin-choose {
+        margin-top: 0px;
+        margin: 34px 26px;
+    }
+    .hand-img img {
+        width: 100%;
+        float: right;
+    }
+    .b-g-banner {
+        height: auto;
+        padding: 18px 17px;
+    }
+    .bg-box-content h3 {
+        font-size: 20px;
+        padding-left: 7px;
+    }
+    .common-white {
+        width: 100%;
+        height: 40px;
+        margin-top: 21px;
+    }
+    .company-img {
+        width: 100%;
+        height: 224px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .pb-120 {
+        padding-bottom: 60px;
+    }
+    .footer {
+        height: auto !important;
+        padding: 60px 0px 0px;
+    }
+    .footer-line-box {
+        border-left: none;
+        border-right: none;
+        padding: 0px 15px;
+    }
+    .footer-data h4 {
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .footer-data h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .lin-color {
+        display: none;
+    }
+    .footer-data h3 i {
+        font-size: 17px;
+        margin-right: 10px;
+        color: #282A39;
+    }
+    .footer-data h5 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 11px;
+    }
+    .footer-data-links {
+        padding: 0px 15px;
+    }
+    .footer-data-links h3 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-top: 27px;
+    }
+    .registred-text {
+        padding-bottom: 0px;
+    }
+    .footer-data img {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    .nav-link {
+        padding-left: 0px !important;
+    }
+    .contact-btn {
+        width: 138px;
+        height: 37px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .about-sec {
+        padding: 50px 0px 0px;
+    }
+    .about-sec .about-right-content {
+        margin: 40px 0px 0px;
+        padding-left: 0px;
+    }
+    .about-sec .main-heading h2 {
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .main-heading h2 {
+        font-size: 25px;
+    }
+    .main-heading h6 {
+        font-size: 16px;
+    }
+    .vision-mission {
+        padding: 30px 0px 0px;
+    }
+    .v-m{
+        padding: 40px 20px;
+        margin-top: 100px;
+    }
+    .vm-round{
+        width: 85px;
+        height: 85px;
+        margin-top: -85px;
+    }
+    .vm-round img {
+        width: 45px;
+    }
+    .about-sec .about-right-content p{
+        margin-bottom: 0px;
+    }
+    .about-bottom{
+        padding: 50px 0px;
+        margin: 60px 0px 0px;
+    }
+    .abt-bottom-content h3{
+        font-size: 30px;
+    }
+    .abt-bottom-img img {
+        position: relative;
+        bottom: -37px;
+        width: 53%;
+        left: 23%;
+    }
+    .v-m h3 {
+        font-size: 26px;
+        margin: 30px 0px 10px;
+    }
+    .inner-banner{
+        min-height: 400px;
+        background-position: 0% 53%;
+        position: relative;
+    }
+    .inner-banner:after{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgb(0 0 0 / 40%);
+    }
+    .inner-banner .container{
+        position: absolute;
+        z-index: 10;
+    }
+    .inner-banner h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .inner-banner ul{
+        justify-content: center;
+    }
+    .pharma-sec {
+        padding: 50px 0px;
+    }
+    .pharma-sec p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .why-radr h3 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .why-radr h6 {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .report-form-div {
+        padding: 30px 18px;
+        margin-top: 50px;
+    }
+    .report-form-div .report-form-header{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .report-form-div .report-form-header h2 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .report-form h6 {
+        margin: 15px 0px 20px;
+        font-size: 16px;
+    }
+    .report-form .input-grp-div {
+        flex-direction: column;
+    }
+
+    .sex-input .input-grp-div{
+        flex-direction: row !important;
+    }
+
+    .report-form .input-grp-div{
+        flex-direction: column;
+    }
+    .col-ting {
+        width: 100%;
+    }
+    .file-upload .image-box {
+        width: 100%;
+    }
+    .contact-deptmnt .contact-dept-img img {
+        width: 65px;
+    }
+    .contact-sec {
+        padding: 50px 0px;
+    }
+    .contact-box .contact-details {
+        padding-top: 45px;
+        padding-bottom: 10px;
+    }
+
+    .contact-sec .main-heading h2 {
+        margin-bottom: 15px;
+    }
+    .contact-sec p {
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .contact-form .button-box {
+        margin-bottom: 35px;
+    }
+    .map-sec iframe{
+        height: 300px !important;
+    }
+    .margin-class-right{
+        padding-top: 10px;
+        margin-right: 0px;
+    }
+    .main-nav .nav-item{
+        margin-right: 0px;
+        padding: 10px 0px 5px;
+    }
+    .navbar-toggler{
+        border: 0px;
+    }
+
+}
