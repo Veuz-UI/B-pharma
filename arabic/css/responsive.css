@@ -95,7 +95,7 @@
     }
     .footer {
         height: auto !important;
-        padding: 40px 0px 0px;
+        padding: 60px 0px 0px;
     }
     .footer-line-box {
         border-left: none;
@@ -116,7 +116,7 @@
     }
     .footer-data h3 i {
         font-size: 17px;
-        margin-right: 10px;
+        margin-right: 0px;
         color: #282A39;
     }
     .footer-data h5 {
@@ -145,7 +145,7 @@
     .contact-btn {
         width: 138px;
         height: 37px;
-        margin-top: 15px;
+        margin-top: 5px;
         margin-bottom: 20px;
     }
     .navbar-toggler:focus{
@@ -156,7 +156,7 @@
     }
     .about-sec .about-right-content {
         margin: 40px 0px 0px;
-        padding-left: 0px;
+        padding-right: 0px;
     }
     .about-sec .main-heading h2 {
         margin-bottom: 15px;
@@ -198,7 +198,8 @@
         position: relative;
         bottom: -37px;
         width: 53%;
-        left: 23%;
+        left: 0px;
+        right: 18%;
     }
     .v-m h3 {
         font-size: 26px;
@@ -306,6 +307,7 @@
     .margin-class-right{
         padding-top: 10px;
         margin-right: 0px;
+        padding-right: 0px;
     }
     .main-nav .nav-item{
         margin-right: 0px;
@@ -313,6 +315,9 @@
     }
     .navbar-toggler{
         border: 0px;
+    }
+    .navbar-nav{
+        padding: 15px 0px 0px;
     }
     .contact-btn1{
         padding: 8px 32px;
@@ -326,7 +331,7 @@
     }
     .consent span{
         position: relative;
-    left: 32px;
+        right: 32px;
     top: -26px;
     padding-left: 0px;
     line-height: 28px;

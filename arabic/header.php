@@ -10,11 +10,11 @@
             <ul class="nav navbar-nav w-100 justify-content-end margin-class-right">
                 <li class="nav-item">
                     <a href="index.php" <?php if(basename($_SERVER['PHP_SELF'], ".php")=="index") { ?> class="active"
-                        <?php   }  ?>>Home</a>
+                        <?php   }  ?>>الصفحةالرئيسية</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.php" <?php if(basename($_SERVER['PHP_SELF'], ".php")=="about") { ?> class="active"
-                        <?php   }  ?>>About us</a>
+                        <?php   }  ?>>معلومات عنا</a>
                 </li>
                 <li class="nav-item">
                     <a href="pharmacovigilance.php"
@@ -23,14 +23,14 @@
                 </li>
                 <li class="nav-item">
                     <a href="contact.php" <?php if(basename($_SERVER['PHP_SELF'], ".php")=="contact") { ?> class="active"
-                        <?php   }  ?>>Contact Us</a>
+                        <?php   }  ?>>اتصل بنا</a>
                 </li>
             </ul>
         </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ms-auto">
-                <a href="arabic/index.php"><button class="contact-btn">العربية</button></a>
+                <a href="../index.php"><button class="contact-btn">English</button></a>
             </ul>
         </div>
     </div>

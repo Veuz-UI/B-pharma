@@ -132,6 +132,7 @@ body {
 .navbar {
     background-color: #fff;
     transition: 1s;
+    direction: rtl;
 }
 
 .main-nav .nav-item a{
@@ -206,6 +207,7 @@ body {
     background-color: #25344F;
     width: 100%;
     height: 40px;
+    direction: rtl;
 }
 
 .navbar-scroll {
@@ -223,7 +225,7 @@ body {
 .numbers-section li {
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
     font-weight: 300;
 }
 
@@ -237,19 +239,20 @@ body {
 }
 
 .numbers-section li i {
-    padding-right: 7px;
+    padding-left: 7px;
 }
 
 .social-section {
     color: #fff;
     font-size: 15px;
     margin-top: 8px;
+    padding: 0px;
 }
 
 .social-section li {
     list-style: none;
     display: inline;
-    margin-left: 20px;
+    margin-right: 20px;
     font-weight: 300;
 }
 
@@ -271,7 +274,7 @@ body {
 .social-section-footer li {
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
     font-weight: 300;
 }
 
@@ -299,14 +302,16 @@ body {
     width: 100%;
     height: calc(100vh - 55px);
     object-fit: cover;
+    transform: scaleX(-1);
 }
 
 .banner-info {
     width: 100%;
     height: auto;
-    transform: translate(-85%, -53%);
+    transform: translate(-16%, -53%);
     top: 48%;
-    left: 0%;
+    right: 0%;
+    text-align: right;
     position: absolute;
 }
 
@@ -355,6 +360,7 @@ body {
 
 .section-pad {
     margin-top: 130px;
+    direction: rtl;
 }
 
 .small-label {
@@ -371,7 +377,7 @@ body {
     height: 1px;
     background-color: #333;
     margin-top: 10px;
-    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .main-text-style {
@@ -382,6 +388,7 @@ body {
 
 .abt-main-img{
     width: 85%;
+    transform: scaleX(-1);
 }
 
 .focus-box {
@@ -394,14 +401,16 @@ body {
 
 .focus-texts h2 {
     color: #282A39;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .focus-texts p {
     color: #837E7E;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
+    line-height: 30px;
 }
 
 .medicine-img img {
@@ -456,10 +465,10 @@ body {
 .box-why-choose {
     border-radius: 20px;
     border: 1px solid #F6F6F6;
-    background: linear-gradient(90deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 40.08%);
+    background: linear-gradient(90deg, #fff 60%, rgb(210 210 210 / 25%) 100%);
     width: 100%;
     height: auto;
-    padding: 0px 80px 0px 130px;
+    padding: 0px 130px 0px 80px;
 }
 
 .tick-box {
@@ -477,7 +486,7 @@ body {
 
 .hand-img img {
     width: 600px;
-    float: right;
+    float: left;
 }
 
 .box-margin-choose {
@@ -493,7 +502,7 @@ body {
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 0px;
-    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .b-g-banner {
@@ -503,6 +512,7 @@ body {
     background-size: cover;
     padding: 0px 40px;
     border-radius: 10px;
+    background-position-x: -450px;
 }
 
 .company-img {
@@ -525,6 +535,7 @@ body {
     height: 200px !important;
     width: 100%;
     padding: 60px;
+    direction: rtl;
 }
 
 .footer-data img {
@@ -550,6 +561,8 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-top: 20px;
+    direction: ltr;
+    text-align: right;
 }
 
 .footer-data h3 a {
@@ -559,7 +572,7 @@ body {
 
 .footer-data h3 i {
     font-size: 22px;
-    margin-right: 10px;
+    margin-left: 10px;
     color: #02a458;
 }
 
@@ -576,7 +589,7 @@ body {
 
 .footer-data h5 i {
     font-size: 16px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .lin-color {
@@ -643,6 +656,7 @@ body {
     background-position: 100% 53%;
     display: flex;
     align-items: center;
+    direction: rtl;
 }
 
 .inner-banner h2 {
@@ -686,7 +700,7 @@ body {
     top: 50%;
     width: 50px;
     height: 1px;
-    margin-left: 8px;
+    margin-right: 8px;
     background-color: #7E7E7E;
 }
 
@@ -698,6 +712,7 @@ body {
 
 .about-sec {
     padding: 100px 0px;
+    direction: rtl;
 }
 
 .about-sec .main-heading h2 {
@@ -709,7 +724,7 @@ body {
 }
 
 .about-sec .about-right-content {
-    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .about-sec .about-right-content {
@@ -724,6 +739,7 @@ body {
 
 .vision-mission {
     padding: 80px 0px 100px;
+    direction: rtl;
 }
 
 .v-m {
@@ -734,6 +750,7 @@ body {
     position: relative;
     transition: all 0.3s;
     text-align: center;
+    min-height: 358px;
 }
 
 .v-m:hover .vm-round:after {
@@ -793,6 +810,7 @@ body {
     background-repeat: no-repeat;
     background-size: 500px;
     margin: 100px 0px 0px;
+    direction: rtl;
 }
 
 .abt-bottom-content h3 {
@@ -828,6 +846,7 @@ body {
 
 .contact-sec {
     padding: 100px 0px;
+    direction: rtl;
 }
 
 .contact-sec .main-heading h2 {
@@ -922,23 +941,23 @@ body {
 .contact-box img {
     position: absolute;
     top: 48px;
-    left: 15px;
+    right: 15px;
     width: 25px;
 }
 
 .contact-box .contact-icon-bx:before {
     content: '';
-    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
     border-top: 100px solid var(--active-color);
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 30px;
     transition: 1s;
 }
 
 .contact-box .contact-details {
-    padding-left: 75px;
-    padding-right: 30px;
+    padding-right: 75px;
+    padding-left: 30px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -962,23 +981,24 @@ body {
 
 .pharma-sec {
     padding: 100px 0px;
+    direction: rtl;
 }
 
 .pharma-sec .main-heading{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .pharma-sec p {
     font-size: 17px;
     color: #6B6B6B;
     line-height: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .why-radr h3 {
     font-weight: 700;
     color: #282A39;
-    font-size: 26px;
+    font-size: 25px;
     margin-top: 30px;
     margin-bottom: 15px;
     display: flex;
@@ -987,7 +1007,7 @@ body {
 
 .why-radr h3 i{
     font-size: 18px;
-    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .why-radr h6 {
@@ -1011,7 +1031,7 @@ body {
 }
 
 .contact-deptmnt .contact-deptmnt-details {
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contact-deptmnt .contact-deptmnt-details h4 {
@@ -1079,7 +1099,7 @@ body {
 .report-form h6 span{
     font-weight: 600;
     font-size: 15px;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .report-form label {
@@ -1112,7 +1132,7 @@ body {
 }
 
 .report-form .input-grp-div .form-group {
-    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 0px;
 }
 
@@ -1126,14 +1146,14 @@ body {
 }
 
 .recover-date .form-group label {
-    margin-right: 10px;
+    margin-left: 10px;
     color: #888;
 }
 
 .form-radio label {
     color: #888;
     font-size: 14.5px;
-    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .border-btm {
@@ -1187,5 +1207,9 @@ body {
     align-items: center;
     font-size: 12px;
     color: red;
-    margin-right: 8px;
+    margin-left: 8px;
+}
+.phn-ar{
+    direction: ltr;
+    text-align: right;
 }
